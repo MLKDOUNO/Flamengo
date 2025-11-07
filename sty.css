@@ -3,17 +3,19 @@ body{
 }
 
 #v iframe {
-    box-shadow: 1px 2px 400px rgb(197, 7, 7);
+    box-shadow: 1px 2px 40px rgb(197, 7, 7);
     opacity: 1;
-    transition: opacity 15s;
+    transition: opacity 0s;
     display: block;
-    left: -25px;
-    position: absolute;
-   
-
-    
+    flex-direction: row;
+    width: 23vmax;
+    height: 13vmax;
+    margin-bottom: 25px;
 }
-/**#v:hover iframe{
+h1{
+    color: white;
+}
+/*#v:hover iframe{
     opacity:1;
    
 }
